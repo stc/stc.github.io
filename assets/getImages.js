@@ -29,6 +29,7 @@ function getRandomImages() {
 
 function displayImages() {
     const imageContainer = document.getElementById('image-container');
+    imageContainer.innerHTML = '';
     const randomImages = getRandomImages();
     
     randomImages.forEach(imageData => {
@@ -39,8 +40,10 @@ function displayImages() {
                 const imgElement = document.createElement('img');
                 imgElement.src = imageData[0];
                 imgElement.style.width = "30%"; 
-                imgElement.style.margin = "5px";  
-                imgElement.style.marginBottom = "50px";  
+                imgElement.style.marginTop = "0px";
+                imgElement.style.marginLeft = "0px";
+                imgElement.style.marginRight = "10px";  
+                imgElement.style.marginBottom = "10px";  
                 
                 anchorElement.appendChild(imgElement);
                 imageContainer.appendChild(anchorElement);
