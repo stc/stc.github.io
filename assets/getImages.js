@@ -46,7 +46,7 @@ function displayImages() {
         const divElement = document.createElement('div');
         divElement.className = "divElement";
         divElement.style.width = "30%";
-        divElement.style.backgroundColor = "#ff0000"
+        divElement.style.backgroundColor = "#dddddd"
         divElement.style.marginTop = "0px";
         divElement.style.marginLeft = "0px";
         divElement.style.marginRight = "10px";
