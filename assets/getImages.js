@@ -7,7 +7,8 @@ const imageList = [
     ['./assets/img/m0-n0.png', 'https://www.fxhash.xyz/generative/slug/m0-n0','m0-n0'],
     ['./assets/img/proc.png', 'https://www.expanded.art/collections/agoston-nagy-procedural-drawings','Procedural Drawings'],
     ['./assets/img/re-frame.png', 'https://highlight.xyz/mint/66ae4b90a963922a3a55935a','re-frame'],
-    ['./assets/img/tur1ng.png', 'https://www.fxhash.xyz/generative/slug/tur1ng','tur1ng']
+    ['./assets/img/tur1ng.png', 'https://www.fxhash.xyz/generative/slug/tur1ng','tur1ng'],
+    ['./assets/img/term-draw.png', 'https://stc.github.io/terminal-drawings/','Terminal Drawings']
 ];
 
 function getRandomImages() {
